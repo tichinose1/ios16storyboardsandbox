@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func didTapButton(_ sender: Any) {
-        
+        debugPrint("hoge")
     }
 
 }
