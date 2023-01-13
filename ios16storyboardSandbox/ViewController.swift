@@ -14,8 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet weak var label: UILabel!
+
     @IBAction func didTapButton(_ sender: Any) {
         debugPrint("hoge")
+
+        label.text = "fuga"
     }
 
 }
