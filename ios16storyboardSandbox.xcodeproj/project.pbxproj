@@ -13,6 +13,7 @@
 		7790527929671A840040F3A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7790527729671A840040F3A5 /* Main.storyboard */; };
 		7790527B29671A870040F3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7790527A29671A870040F3A5 /* Assets.xcassets */; };
 		7790527E29671A870040F3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7790527C29671A870040F3A5 /* LaunchScreen.storyboard */; };
+		77EFDC6F2972F82000018BE6 /* HogeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EFDC6E2972F82000018BE6 /* HogeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7790527A29671A870040F3A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7790527D29671A870040F3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7790527F29671A870040F3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EFDC6E2972F82000018BE6 /* HogeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HogeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7790527A29671A870040F3A5 /* Assets.xcassets */,
 				7790527C29671A870040F3A5 /* LaunchScreen.storyboard */,
 				7790527F29671A870040F3A5 /* Info.plist */,
+				77EFDC6E2972F82000018BE6 /* HogeViewController.swift */,
 			);
 			path = ios16storyboardSandbox;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7790527629671A840040F3A5 /* ViewController.swift in Sources */,
+				77EFDC6F2972F82000018BE6 /* HogeViewController.swift in Sources */,
 				7790527229671A840040F3A5 /* AppDelegate.swift in Sources */,
 				7790527429671A840040F3A5 /* SceneDelegate.swift in Sources */,
 			);
