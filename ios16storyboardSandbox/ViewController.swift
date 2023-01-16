@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         debugPrint("hoge")
 
         label.text = "fuga"
+
+        let vc = HogeViewController()
+        present(vc, animated: true)
     }
 
 }

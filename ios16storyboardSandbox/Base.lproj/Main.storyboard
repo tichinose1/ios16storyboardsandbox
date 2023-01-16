@@ -45,13 +45,22 @@
             </objects>
             <point key="canvasLocation" x="21" y="4"/>
         </scene>
-        <!--View Controller-->
+        <!--Hoge View Controller-->
         <scene sceneID="pU4-Op-euE">
             <objects>
-                <viewController id="1cA-F6-cAg" sceneMemberID="viewController">
+                <viewController id="1cA-F6-cAg" customClass="HogeViewController" customModule="ios16storyboardSandbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a98-wi-OJw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oem-h4-trY">
+                                <rect key="frame" x="175" y="416" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="KRZ-IF-4Qe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
