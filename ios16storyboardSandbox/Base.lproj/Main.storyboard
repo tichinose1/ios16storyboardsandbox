@@ -48,7 +48,7 @@
         <!--Hoge View Controller-->
         <scene sceneID="pU4-Op-euE">
             <objects>
-                <viewController id="1cA-F6-cAg" customClass="HogeViewController" customModule="ios16storyboardSandbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Hoge" id="1cA-F6-cAg" customClass="HogeViewController" customModule="ios16storyboardSandbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a98-wi-OJw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -21,7 +21,9 @@ class ViewController: UIViewController {
 
         label.text = "fuga"
 
-        let vc = HogeViewController()
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "Hoge") else {
+            fatalError()
+        }
         present(vc, animated: true)
     }
 
